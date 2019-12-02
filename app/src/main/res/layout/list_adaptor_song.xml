@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+
+    <TextView
+        android:id="@+id/tv_name_adaptor"
+        android:layout_width="300dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="#548689"
+        android:gravity="center_vertical"
+        android:paddingLeft="7dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_star1_adaptor"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.5"
+        android:background="#548689"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_star2_adaptor"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.5"
+        android:background="#548689"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_star3_adaptor"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+        android:background="#548689"
+        android:visibility="visible" />
+
+</LinearLayout>

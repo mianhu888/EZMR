@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">EZMR</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string-array name="play_speed">
+        <item>0.5X</item>
+        <item>1.0X</item>
+        <item>2.0X</item>
+    </string-array>
+    <string name="fixed_display_notes">\uE01A\uE0A5\uE01A\uE050\uE01A\uE09E\uE084\uE09F\uE084
+        \uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5
+        \uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5
+        \uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5
+        \uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5</string>
+    <string name="fixed_display_notes_with_barline">\uE01A\uE0A5\uE01A\uE050\uE01A\uE09E\uE084\uE09F\uE084\uE01A\-\uE030
+        \uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5
+        \uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5
+        \uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5
+        \uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5</string>
+    <string name="gclef">\uE01A\uE0A5\uE01A\uE050</string>
+    <string name="fclef">\uE01A\uE0A5\uE01A\uE062</string>
+    <string name="up1">\uE01A\uE0A5\uE01A\uE062</string>
+    <string name="up2">\uE01A\uE0A5\uE01A\uE062</string>
+    <string name="up3">\uE01A\uE0A5\uE01A\uE062</string>
+    <string name="up4">\uE01A\uE09E\uE084</string>
+    <string name="down1">\uE01A\uE0A5\uE01A\uE062</string>
+    <string name="down2">\uE01A\uE0A5\uE01A\uE062</string>
+    <string name="down3">\uE01A\uE0A5\uE01A\uE062</string>
+    <string name="down4">\uE09F\uE084</string>
+    <string name="barline">\uE01A\-\uE030</string>
+    <string name="five_staff">\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5
+        \uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5
+        \uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5
+        \uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5\uE01A\uE0A5</string>
+    <string name="title_activity_journal">journalActivity</string>
+
+
+</resources>

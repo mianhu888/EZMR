@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDF7EC"
+    tools:context=".SettingActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:text="Choose generated sound:"
+        android:textColor="#00727C"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/rg1_piano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piano"
+            android:checked="true"
+            android:textColor="#00727C"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rg1_violin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Violin"
+            android:textColor="#00727C"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rg1_saxophone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saxophone"
+            android:textColor="#00727C"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Playback sound:"
+        android:textColor="#00727C"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup1"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/rg2_recording"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Recording"
+            android:textColor="#00727C"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rg2_generate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generated Sound"
+            android:textColor="#00727C"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_clef_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Clef:"
+        android:textColor="#00727C"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_clef_setting">
+
+        <RadioButton
+            android:id="@+id/rg3_gclef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="G clef"
+            android:checked="true"
+            android:textColor="#00727C"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rg3_fclef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F clef"
+            android:textColor="#00727C"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_beat_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Beat:"
+        android:textColor="#00727C"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_clef_setting"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup3" />
+
+    <Button
+        android:id="@+id/btn_apply_SettingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:background="#548689"
+        android:text="Apply"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_beatlow_setting" />
+
+    <Button
+        android:id="@+id/btn_cancel_SettingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:background="#548689"
+        android:text="cancel"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btn_apply_SettingActivity"
+        app:layout_constraintTop_toTopOf="@+id/btn_apply_SettingActivity" />
+
+    <EditText
+        android:id="@+id/edt_beatup_setting"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup3"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup3" />
+
+    <EditText
+        android:id="@+id/edt_beatlow_setting"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/edt_beatup_setting"
+        app:layout_constraintTop_toBottomOf="@+id/edt_beatup_setting" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
